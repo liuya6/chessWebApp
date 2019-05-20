@@ -1,0 +1,164 @@
+@charset "UTF-8";
+.w1400 {
+  width: 1400px;
+  margin: auto;
+}
+
+.body, html {
+  min-width: 1400px;
+  font-family: "Adobe 黑体";
+}
+
+.el-carousel__container {
+  height: 100%;
+}
+
+.el-carousel__button {
+  width: 50px;
+  height: 10px;
+}
+
+.carousel_card .el-carousel__button {
+  width: 30px;
+  height: 7px;
+  background-color: #00aadc;
+}
+
+.carousel_card .el-carousel__arrow {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.el-carousel__arrow {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 30px;
+}
+
+.oldInput {
+  width: 322px;
+  margin-left: 26px;
+}
+
+.account {
+  width: 134px !important;
+  height: 50px !important;
+  color: #000;
+  float: right;
+}
+
+.account .el-input {
+  float: left;
+}
+
+.account .el-input .el-input__inner {
+  width: 133px;
+  height: 32px;
+}
+
+.date_picker {
+  width: 144px !important;
+  height: 50px !important;
+  margin-left: 22px;
+  margin-right: 9px;
+}
+
+.date_picker input {
+  width: 142px;
+  height: 32px;
+}
+
+.page .el-pager li {
+  background-color: #333 !important;
+  border: 1px solid #6a6a6a;
+  color: #6a6a6a;
+  box-sizing: border-box;
+  min-width: 21px !important;
+}
+
+.page .el-pager li:hover {
+  color: #c8c8c8 !important;
+  border-color: #c8c8c8;
+}
+
+.page .el-pager li.active {
+  border-color: #c8c8c8;
+}
+
+.page .btn-next, .page .btn-prev {
+  background-color: #333 !important;
+}
+
+.pages .el-pager li {
+  background-color: #010e17 !important;
+  border: 1px solid #6a6a6a;
+  color: #6a6a6a;
+  min-width: 21px !important;
+}
+
+.pages .el-pager li:hover {
+  color: #c8c8c8 !important;
+  border-color: #c8c8c8;
+}
+
+.pages .el-pager li.active {
+  border-color: #c8c8c8;
+}
+
+.pages .btn-next, .pages .btn-prev {
+  background-color: #010e17 !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.all {
+  width: 130px;
+}
+
+.all .el-input {
+  height: 48px;
+}
+
+.all .el-input .el-input__inner {
+  background-color: #f9f7f8;
+  text-align: center;
+  border: 0;
+}
+
+.el-message {
+  top: 50%;
+}
+
+.el-loading-mask {
+  z-index: 1 !important;
+}
+
+.el-date-editor .el-range-separator {
+  padding: 0;
+}
+
+.apply a {
+  padding: 5px 20px;
+  background-color: #dc001a;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 20px;
+  border-radius: 15px;
+  font-size: 28px;
+}
+
+.date_picker {
+  width: 450px !important;
+  height: 40px !important;
+  padding: 0px 10px;
+}
+
+.date_picker .el-range-separator {
+  margin-right: 10px;
+  margin-left: 10px;
+}

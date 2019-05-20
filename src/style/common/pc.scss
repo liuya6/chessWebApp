@@ -1,0 +1,121 @@
+body,h1,h2,h3,h4,h5,h6,blockquote,ol,ul,dl,dd,p,textarea,input,select,option,form {
+  margin:0; padding:0;
+}
+ol,ul,textarea,input,option,th,td {
+  padding:0;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size:100%;
+}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block;
+}
+table {
+  border-collapse:collapse;border-spacing: 0;
+}
+select{
+  border: none;
+  outline: none ;
+  background: transparent;
+}
+th,td{
+  padding:0;
+  }
+ul,ol {
+  list-style-type:none;
+}
+.clearfix:after {
+  content:'.';display:block;height:0;clear:both;visibility:hidden;
+}
+.clear {
+  clear:both;height:0;overflow:hidden;
+}
+input[type=text],textarea{
+  -webkit-appearance:none;
+}
+
+input:focus{
+  -webkit-user-modify:read-write-plaintext-only;
+}
+fieldset, img {
+  border: 0;
+}
+img{
+  display: block;
+}
+a {
+  color: black;
+  text-decoration:none;
+}
+a,textarea,input{
+  outline:none;
+}
+blockquote, q {
+  quotes: none;
+}
+textarea {
+  overflow:auto;resize:none;
+}
+.cl:after{
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.cl{
+  zoom: 1;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: black;
+}
+// body{
+//   scrollbar-arrow-color: red; /*上下按钮上三角箭头的颜色*/
+//   scrollbar-face-color: #CBCBCB; /*滚动条凸出部分的颜色*/
+//   scrollbar-3dlight-color: blue; /*滚动条亮边的颜色*/
+//   scrollbar-highlight-color: #333; /*滚动条空白部分的颜色*/
+//   scrollbar-shadow-color: yellow; /*滚动条阴影的颜色*/
+//   scrollbar-darkshadow-color: green; /*滚动条强阴影的颜色*/
+//   scrollbar-track-color: #eee; /*滚动条背景颜色*/
+
+//   scrollbar-base-color: black; /*滚动条的基本颜色*/
+//   /*以上2项适用与：body、div、textarea、iframe*/
+// }
+
+// ::-webkit-scrollbar {  /* 滚动条整体部分 */
+//   width:15px;
+//   margin-right:2px
+// }
+// ::-webkit-scrollbar:horizontal {
+//   height:10px;
+//   margin-bottom:2px
+// }
+// ::-webkit-scrollbar-track {  /* 外层轨道 */
+//   border-radius: 10px;
+// }
+// ::-webkit-scrollbar-track-piece {  /*内层轨道，滚动条中间部分 */
+//   background-color: #333333;
+//   border-radius: 10px;
+// }
+// ::-webkit-scrollbar-thumb {  /* 滑块 */
+//   width:10px;
+//   border-radius: 5px;
+//   background: #CBCBCB;
+// }
+// ::-webkit-scrollbar-corner { /* 边角 */
+//   width: 10px;
+//   background-color: red;
+// }
+// ::-webkit-scrollbar-thumb:hover { /* 鼠标移入滑块 */
+//   background: #909090;
+// }

@@ -1,0 +1,70 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev @babel/polyfill
+
+PATH: 
+  D:\www\webApp\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;d:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\www\webApp\node_modules\node-sass\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+    "name": "webapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint",
+      "start": "npm run serve",
+      "test:unit": "vue-cli-service test:unit"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "core-js": "^2.6.5",
+      "element-ui": "^2.4.5",
+      "iview": "^3.0.1",
+      "js-base64": "^2.5.1",
+      "md5": "^2.2.1",
+      "prerender-spa-plugin": "^3.4.0",
+      "vue": "^2.6.6",
+      "vue-router": "^3.0.1",
+      "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.5.0",
+      "@vue/cli-plugin-eslint": "^3.5.0",
+      "@vue/cli-plugin-unit-jest": "^3.5.0",
+      "@vue/cli-service": "^3.5.0",
+      "@vue/test-utils": "1.0.0-beta.29",
+      "babel-core": "7.0.0-bridge.0",
+      "babel-eslint": "^10.0.1",
+      "babel-jest": "^23.6.0",
+      "babel-plugin-component": "^1.1.1",
+      "babel-plugin-import": "^1.8.0",
+      "compression-webpack-plugin": "^2.0.0",
+      "eslint": "^5.8.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "image-webpack-loader": "^4.6.0",
+      "node-sass": "^4.9.0",
+      "sass-loader": "^7.1.0",
+      "vue-cli-plugin-element": "^1.0.1",
+      "vue-cli-plugin-iview": "^1.0.6",
+      "vue-template-compiler": "^2.5.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
